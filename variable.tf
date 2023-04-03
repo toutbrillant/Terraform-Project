@@ -9,3 +9,9 @@ variable "aws-inst-type" {
     default = "t2.micro"
   
 }
+
+variable "mys3name" {
+    type = string
+    default = "urbain"
+  
+}
